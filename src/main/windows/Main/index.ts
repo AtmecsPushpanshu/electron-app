@@ -15,8 +15,8 @@ export async function MainWindow() {
     center: true,
     movable: true,
     resizable: true,
-    alwaysOnTop: true,
-    autoHideMenuBar: true,
+    alwaysOnTop: false,
+    autoHideMenuBar: false,
     maximizable: true,
 
     webPreferences: {
